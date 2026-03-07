@@ -1,0 +1,25 @@
+{
+  "name": "jarvis-trading-core",
+  "description": "Jarvis 核心交易系统 - 多交易所聚合 + 投资组合管理 + 信号检测 + 鲸鱼监控",
+  "version": "1.0.0",
+  "created": "2026-03-06T17:15:00",
+  "author": "Jarvis Evolver",
+  "tags": ["trading", "crypto", "portfolio", "signals", "whale", "auto-generated", "custom"],
+  "integrated_from": [
+    "binance-pro",
+    "hyperliquid-trading", 
+    "bankr",
+    "polymarket-api",
+    "defi-yield-scanner",
+    "crypto-whale-monitor",
+    "bankr-signals"
+  ],
+  "features": [
+    "multi-exchange-support",
+    "portfolio-aggregation",
+    "trading-execution",
+    "signal-detection",
+    "yield-scanning",
+    "whale-monitoring"
+  ]
+}

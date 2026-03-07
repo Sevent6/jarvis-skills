@@ -1,0 +1,27 @@
+{
+  "whales": [
+    {
+      "address": "0x8acc...d4a2",
+      "name": "Wintermute Trading",
+      "type": "market_maker",
+      "alerts": ["large_buy", "large_sell"]
+    },
+    {
+      "address": "0x47ac...9b21",
+      "name": "Paradigm",
+      "type": "institutional",
+      "alerts": ["accumulate", "distribute"]
+    },
+    {
+      "address": "0xd04c...8a3f",
+      "name": "Amber Group",
+      "type": "institutional", 
+      "alerts": ["large_buy", "large_sell"]
+    }
+  ],
+  "alert_thresholds": {
+    "eth_transfer": 100,
+    "btc_transfer": 10,
+    "usdc_transfer": 100000
+  }
+}

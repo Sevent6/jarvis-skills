@@ -1,0 +1,30 @@
+{
+  "name": "jarvis-search-core",
+  "description": "Jarvis 核心搜索系统 - 多引擎聚合 + 智能爬虫 + 浏览器自动化 + 30+ 平台 + 中文平台",
+  "version": "1.2.0",
+  "created": "2026-03-06T17:20:00",
+  "updated": "2026-03-06T18:15:00",
+  "author": "Jarvis Evolver",
+  "tags": ["search", "scraper", "browser", "automation", "auto-generated", "custom"],
+  "integrated_from": [
+    "multi-search-engine",
+    "tavily",
+    "browser-automation",
+    "deep-scraper",
+    "playwright-scraper-skill",
+    "stealth-browser",
+    "union-search-skill",
+    "agent-reach",
+    "defuddle-skill"
+  ],
+  "features": [
+    "multi-engine-search",
+    "intelligent-scraping",
+    "browser-automation",
+    "content-extraction",
+    "result-aggregation",
+    "30-plus-platforms",
+    "chinese-platforms",
+    "article-cleanup"
+  ]
+}

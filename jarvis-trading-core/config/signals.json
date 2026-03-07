@@ -1,0 +1,56 @@
+{
+  "indicators": {
+    "rsi": {
+      "period": 14,
+      "oversold": 30,
+      "overbought": 70
+    },
+    "macd": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 9
+    },
+    "bollinger": {
+      "period": 20,
+      "std": 2
+    }
+  },
+  "signal_rules": [
+    {
+      "name": "rsi_oversold",
+      "condition": "rsi < 30",
+      "action": "BUY",
+      "confidence": 0.75
+    },
+    {
+      "name": "rsi_overbought", 
+      "condition": "rsi > 70",
+      "action": "SELL",
+      "confidence": 0.75
+    },
+    {
+      "name": "macd_golden_cross",
+      "condition": "macd > signal AND prev_macd < prev_signal",
+      "action": "BUY",
+      "confidence": 0.70
+    },
+    {
+      "name": "macd_death_cross",
+      "condition": "macd < signal AND prev_macd > prev_signal",
+      "action": "SELL",
+      "confidence": 0.70
+    },
+    {
+      "name": "bb_lower",
+      "condition": "price < bb_lower",
+      "action": "BUY",
+      "confidence": 0.65
+    },
+    {
+      "name": "bb_upper",
+      "condition": "price > bb_upper",
+      "action": "SELL",
+      "confidence": 0.65
+    }
+  ]
+}

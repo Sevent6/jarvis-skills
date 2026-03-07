@@ -1,0 +1,25 @@
+{
+  "name": "jarvis-comm-core",
+  "description": "Jarvis 核心通讯系统 - 多平台消息聚合 + 社交媒体监控 + 内容自动发布",
+  "version": "1.1.0",
+  "created": "2026-03-06T17:25:00",
+  "updated": "2026-03-06T18:15:00",
+  "author": "Jarvis Evolver",
+  "tags": ["communication", "telegram", "farcaster", "twitter", "auto-generated", "custom"],
+  "integrated_from": [
+    "telegram-bot",
+    "neynar",
+    "x-reader",
+    "imsg",
+    "wacli",
+    "baoyu-skills"
+  ],
+  "features": [
+    "telegram-integration",
+    "farcaster-integration",
+    "twitter-integration",
+    "unified-inbox",
+    "message-monitoring",
+    "auto-publish"
+  ]
+}
