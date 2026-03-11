@@ -1,0 +1,13 @@
+{
+  "name": "jarvis-evolver",
+  "description": "Jarvis 自主进化框架 - 技能消化、经验封装、自动化决策",
+  "version": "1.0.0",
+  "created": "2026-03-06T16:25:00",
+  "author": "Jarvis Evolver",
+  "tags": ["auto-generated", "custom", "evolver", "framework"],
+  "core_modules": [
+    "skill_analyzer",
+    "decision_engine",
+    "skill_builder"
+  ]
+}

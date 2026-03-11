@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-03-06T16:30:43.195083",
+    "context": "test context",
+    "decision": "BUY",
+    "result": "success",
+    "metadata": {}
+  }
+]

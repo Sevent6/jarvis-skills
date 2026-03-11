@@ -1,0 +1,23 @@
+{
+  "name": "jarvis-agent-core",
+  "description": "Jarvis 核心多Agent系统 - 任务分发 + 能力进化 + 自主决策",
+  "version": "1.0.0",
+  "created": "2026-03-06T17:37:00",
+  "author": "Jarvis Evolver",
+  "tags": ["agent", "multi-agent", "autonomous", "auto-generated", "custom"],
+  "integrated_from": [
+    "capability-evolver",
+    "self-evolving-skill-1-0-2",
+    "autonomous-feature-planner",
+    "multi-agent-cn",
+    "multi-agent-roles"
+  ],
+  "features": [
+    "sub-agent-management",
+    "task-dispatching",
+    "capability-analysis",
+    "auto-evolution",
+    "decision-engine",
+    "memory-management"
+  ]
+}

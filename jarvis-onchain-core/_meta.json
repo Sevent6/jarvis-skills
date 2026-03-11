@@ -1,0 +1,27 @@
+{
+  "name": "jarvis-onchain-core",
+  "description": "Jarvis 核心链上系统 - 多链聚合 + 智能合约交互 + NFT/代币管理",
+  "version": "1.0.0",
+  "created": "2026-03-06T17:35:00",
+  "author": "Jarvis Evolver",
+  "tags": ["blockchain", "ethereum", "defi", "nft", "auto-generated", "custom"],
+  "integrated_from": [
+    "onchainkit",
+    "erc-8004",
+    "endaoment",
+    "ens-primary-name",
+    "veil",
+    "clanker",
+    "qrcoin",
+    "base"
+  ],
+  "features": [
+    "multi-chain-support",
+    "wallet-management",
+    "token-operations",
+    "defi-integration",
+    "nft-management",
+    "ens-management",
+    "privacy-transactions"
+  ]
+}

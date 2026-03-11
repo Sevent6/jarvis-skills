@@ -1,0 +1,22 @@
+{
+  "name": "jarvis-life-core",
+  "description": "Jarvis 核心生活系统 - 日程管理 + 提醒 + 备忘录 + 天气 + 个人信息",
+  "version": "1.0.0",
+  "created": "2026-03-06T17:38:00",
+  "author": "Jarvis Evolver",
+  "tags": ["life", "productivity", "calendar", "reminders", "auto-generated", "custom"],
+  "integrated_from": [
+    "weather",
+    "things-mac",
+    "apple-notes",
+    "apple-reminders",
+    "daily-briefing"
+  ],
+  "features": [
+    "calendar-management",
+    "reminders",
+    "note-taking",
+    "weather查询",
+    "daily-briefing"
+  ]
+}
